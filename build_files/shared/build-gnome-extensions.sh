@@ -4,6 +4,8 @@ set -eoux pipefail
 
 echo "::group:: ===$(basename "$0")==="
 
+ls -la /usr/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com/
+
 # Install tooling
 dnf5 -y install glib2-devel meson sassc cmake dbus-devel
 
